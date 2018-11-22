@@ -22,13 +22,18 @@ function doWhileLoop(array) {
     i = i + 1;
   }
   
-  
-  
-  function maybeTrue() {
-    return Math.random() >= 0.5
-    }
   do {
     array.pop();
-  } while (array.length > 0 && maybeTrue())
-  return array
+  } while (array.length > 0 && incrementVar);
 }
+  
+  
+// function doWhileLoop(array)  
+//   function maybeTrue() {
+//     return Math.random() >= 0.5
+//     }
+//   do {
+//     array.pop();
+//   } while (array.length > 0 && maybeTrue())
+//   return array
+// }
